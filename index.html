@@ -8,18 +8,20 @@
 <body>
  <div class="temporizador">
  <h1>⏳ Temporizador</h1>
- <label for="minutosInput" class="sr-only">Minutos</label>
- <input type="number" id="minutosInput" placeholder="Minutos" min="0" />
- <label for="segundosInput" class="sr-only">Segundos</label>
- <input type="number" id="segundosInput" placeholder="Segundos" min="0" max="59" />
+ <input type="number" id="minutosInput" placeholder="Minutos" min="0">
+ <input type="number" id="segundosInput" placeholder="Segundos" min="0"
+max="59">
  <div id="displayTempo">00:00</div>
  <div class="botoes">
- <button id="btnIniciar" type="button">▶️ Iniciar</button>
- <button id="btnPausar" type="button">⏸️ Pausar</button>
- <button id="btnZerar" type="button">⏹️ Reset</button>
+ <button id="btnIniciar">▶️ Iniciar</button>
+ <button id="btnPausar">⏸️ Pausar</button>
+ <button id="btnZerar">⏹️ Reset</button>
  </div>
- <button id="btnModoEscuro" type="button">🌙 Modo Escuro</button>
- </div>
+ <button id="btnModoEscuro">🌙 Modo Escuro</button>
+ <button id="btnAutoReinicio">
+ 🔄
+ Reinício Auto: ON</button>
+</div>
  <script src="script.js"></script>
 </body>
 </html>
